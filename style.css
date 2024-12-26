@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    padding-left: 30px;
+}
+#nav-bar {
+    /* background-color: #f2f2f2; */
+    background-color: #d2d1d1;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-bar a {
+   display: flex;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   margin: 5px;
+   text-decoration: none;
+   font-size: 17px;
+}
+#nav-bar a:hover {
+    background-color: #ccc;
+    color: #333;
+}
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+   list-style: none;
+}
+span a {
+    color: black;
+}
+
+.info {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Images/MK.jpg");
+    background-position: center;
+    /* background-color: #cac8c8; */
+    background-color: white;
+}
+
+/* Bio styling */
+#bio {
+    width: 100%;
+    height: 100%;
+    /* background: #cac8c8; */
+}
+#bio h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+#bio h1 + p {
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.bio-img {
+    display: flex;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.bio-write {
+    width: 100%;
+    height: 100%;
+    line-height: 1.1;
+    /* background-color: #cac8c8; */
+    background: rgb(64, 64, 218);
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+.bio-write p {
+    margin-bottom: 10px;
+}
+
+.bio-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Project styling */
+#project h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 30px 0 0;
+}
+
+#project h3 {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#project .describe {
+    background: rgb(64, 64, 218);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
