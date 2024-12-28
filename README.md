@@ -13,3 +13,5 @@ STEP BY STEP DOCUMENTATION OF WORK
 8. Got a free domain name from freedns.afraid.org
 9. Did and apt update and installed certbot
 10. Used certbot to obtain SSL certificate and automatically configured https for my domain
+
+![Screenshot (2)](https://github.com/user-attachments/assets/9233c918-14c5-4437-8846-3253745c9d9e)
